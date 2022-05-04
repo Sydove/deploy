@@ -1,0 +1,27 @@
+version: '3'
+services:
+    backend_service:
+        image: backend_service:v1.0
+        container_name: backend_service
+        ports:
+            - "8000:8000"
+        volumes:
+            - "./:/root/deploy"
+            - "/etc/localtime:/etc/localtime"
+        environment:
+            - TZ=Asia/Shanghai
+        working_dir: /root/deploy
+        privileged: true
+        restart: always
+        command: bash -c "supervisord -c supervisord.conf -n"
+    nginx:
+        image: nginx:latest
+        container_name: deploy_nginx
+        volumes:
+            - "./data/nginx.conf:/etc/nginx/conf.d/default.conf"
+        privileged: true
+        ports:
+            - "8000:80"
+        restart: always
+        depends_on:
+            - backend_service

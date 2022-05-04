@@ -1,0 +1,64 @@
+2022-05-03 22:08:21,717 INFO Set uid to user 0 succeeded
+2022-05-03 22:08:21,873 INFO RPC interface 'supervisor' initialized
+2022-05-03 22:08:21,875 INFO supervisord started with pid 1
+2022-05-03 22:08:22,909 INFO spawned: 'backend_service' with pid 10
+2022-05-03 22:08:23,151 INFO exited: backend_service (exit status 1; not expected)
+2022-05-03 22:08:24,179 INFO spawned: 'backend_service' with pid 15
+2022-05-03 22:08:24,366 INFO exited: backend_service (exit status 3; not expected)
+2022-05-03 22:08:26,403 INFO spawned: 'backend_service' with pid 19
+2022-05-03 22:08:26,651 INFO exited: backend_service (exit status 1; not expected)
+2022-05-03 22:08:29,688 INFO spawned: 'backend_service' with pid 24
+2022-05-03 22:08:29,901 INFO exited: backend_service (exit status 1; not expected)
+2022-05-03 22:08:33,930 INFO spawned: 'backend_service' with pid 29
+2022-05-03 22:08:34,232 INFO exited: backend_service (exit status 3; not expected)
+2022-05-03 22:08:39,279 INFO spawned: 'backend_service' with pid 34
+2022-05-03 22:08:39,484 INFO exited: backend_service (exit status 3; not expected)
+2022-05-03 22:08:45,530 INFO spawned: 'backend_service' with pid 38
+2022-05-03 22:08:45,779 INFO exited: backend_service (exit status 1; not expected)
+2022-05-03 22:08:52,822 INFO spawned: 'backend_service' with pid 43
+2022-05-03 22:08:53,036 INFO exited: backend_service (exit status 1; not expected)
+2022-05-03 22:09:01,096 INFO spawned: 'backend_service' with pid 48
+2022-05-03 22:09:01,280 INFO exited: backend_service (exit status 3; not expected)
+2022-05-03 22:09:10,349 INFO spawned: 'backend_service' with pid 52
+2022-05-03 22:09:10,645 INFO exited: backend_service (exit status 3; not expected)
+2022-05-03 22:09:20,725 INFO spawned: 'backend_service' with pid 57
+2022-05-03 22:09:20,953 INFO exited: backend_service (exit status 1; not expected)
+2022-05-03 22:09:32,010 INFO spawned: 'backend_service' with pid 72
+2022-05-03 22:09:32,248 INFO exited: backend_service (exit status 1; not expected)
+2022-05-03 22:09:44,344 INFO spawned: 'backend_service' with pid 77
+2022-05-03 22:09:44,536 INFO exited: backend_service (exit status 3; not expected)
+2022-05-03 22:09:57,615 INFO spawned: 'backend_service' with pid 81
+2022-05-03 22:09:57,805 INFO exited: backend_service (exit status 1; not expected)
+2022-05-03 22:10:11,903 INFO spawned: 'backend_service' with pid 88
+2022-05-03 22:10:12,138 INFO exited: backend_service (exit status 1; not expected)
+2022-05-03 22:10:27,232 INFO spawned: 'backend_service' with pid 94
+2022-05-03 22:10:27,509 INFO exited: backend_service (exit status 1; not expected)
+2022-05-03 22:10:43,599 INFO spawned: 'backend_service' with pid 102
+2022-05-03 22:10:43,891 INFO exited: backend_service (exit status 3; not expected)
+2022-05-03 22:11:01,003 INFO spawned: 'backend_service' with pid 108
+2022-05-03 22:11:01,188 INFO exited: backend_service (exit status 3; not expected)
+2022-05-03 22:11:19,278 INFO spawned: 'backend_service' with pid 113
+2022-05-03 22:11:19,498 INFO exited: backend_service (exit status 1; not expected)
+2022-05-03 22:11:38,589 INFO spawned: 'backend_service' with pid 121
+2022-05-03 22:11:43,768 INFO exited: backend_service (exit status 1; not expected)
+2022-05-03 22:12:04,768 INFO spawned: 'backend_service' with pid 127
+2022-05-03 22:12:04,982 INFO exited: backend_service (exit status 1; not expected)
+2022-05-03 22:12:26,104 INFO spawned: 'backend_service' with pid 133
+2022-05-03 22:12:26,330 INFO exited: backend_service (exit status 1; not expected)
+2022-05-03 22:12:48,445 INFO spawned: 'backend_service' with pid 138
+2022-05-03 22:12:48,740 INFO exited: backend_service (exit status 3; not expected)
+2022-05-03 22:13:11,841 INFO spawned: 'backend_service' with pid 143
+2022-05-03 22:13:12,135 INFO exited: backend_service (exit status 3; not expected)
+2022-05-03 22:13:36,280 INFO spawned: 'backend_service' with pid 148
+2022-05-03 22:13:36,505 INFO exited: backend_service (exit status 1; not expected)
+2022-05-03 22:14:01,629 INFO spawned: 'backend_service' with pid 153
+2022-05-03 22:14:01,872 INFO exited: backend_service (exit status 1; not expected)
+2022-05-03 22:14:24,955 WARN received SIGTERM indicating exit request
+2022-05-03 22:14:31,551 INFO Set uid to user 0 succeeded
+2022-05-03 22:14:31,568 INFO RPC interface 'supervisor' initialized
+2022-05-03 22:14:31,569 INFO supervisord started with pid 1
+2022-05-03 22:14:32,605 INFO spawned: 'backend_service' with pid 10
+2022-05-03 22:14:42,781 INFO success: backend_service entered RUNNING state, process has stayed up for > than 10 seconds (startsecs)
+2022-05-03 22:17:46,558 WARN received SIGTERM indicating exit request
+2022-05-03 22:17:46,575 INFO waiting for backend_service to die
+2022-05-03 22:17:46,901 INFO stopped: backend_service (exit status 0)
